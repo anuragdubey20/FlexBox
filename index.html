@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox Example</title>
+  <style>
+    body{
+        padding: 10%;
+    }
+  .container {
+      display: flex;
+      justify-content: center; /* Distribute space evenly between items */
+      gap: 10px; /* Adds space between flex items */
+      flex-wrap: wrap;
+    }
+
+    .box {
+      width: 200px;
+      height: 250px;
+      background-color: rgb(248, 130, 19);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      border-radius: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="box">Box 1</div>
+    <div class="box">Box 2</div>
+    <div class="box">Box 3</div>
+  </div>
+
+</body>
+</html>
